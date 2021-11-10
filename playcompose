@@ -1,3 +1,3 @@
 FROM openjdk:8-jre
 COPY   ./webgateway-1.0-SNAPSHOT    /webgateway-1.0-SNAPSHOT
-CMD  /webgateway-1.0-SNAPSHOT/bin/webgateway -Dhttps.port=9001 -Dplay.http.secret.key='QCY?tAnfk?aZ?iwrNwnxIlR6CTf:G3gf:90Latabg@5241AB`R5W:1uDFN];Ik@n'
+CMD  /webgateway-1.0-SNAPSHOT/bin/webgateway  -Dplay.http.secret.key='QCY?tAnfk?aZ?iwrNwnxIlR6CTf:G3gf:90Latabg@5241AB`R5W:1uDFN];Ik@n'
